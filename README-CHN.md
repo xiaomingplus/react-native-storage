@@ -146,7 +146,7 @@ var storage = new Storage({
   
   //load 读取
   storage.load({
-    key: 'user'
+    key: 'user',
     id: '1001'
   }).then(ret => {
     // 如果找到数据，则在then方法中返回
